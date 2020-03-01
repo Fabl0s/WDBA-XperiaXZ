@@ -19,7 +19,7 @@ if [ $OEM != "Sony" ]
 then abort "OEM Mismatch! Please use the right Module for your device."
 fi
 
-if [ $DEV != "F8331" ]
+if [ $DEV != "F8331" ] && [ $DEV != "F8331" ]
 then abort "Device Mismatch! Please use the right Module for your device."
 fi
 
